@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pranjall's portfolio</title>
+  <style>
+    html, body {
+      height: 100%; /* required for stable body height */
+      background-color: black;
+      margin: 0; /* remove default margin */
+      padding: 0; /* remove default padding */
+    }
+
+    body {
+      min-height: 100%; /* required for 'mix-blend-mode' */
+      cursor: none;
+      color: #000;
+      background-color: black; /* required for 'mix-blend-mode' */
+    }
+
+    .cursor {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: #fff;
+      border-radius: 50%;
+      top: var(--y, 0);
+      left: var(--x, 0);
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      mix-blend-mode: difference;
+    }
+
+    img {
+      max-width: 100%; /* make image responsive */
+      height: auto; /* maintain aspect ratio */
+      display: block; /* remove extra spacing under image */
+      margin: 0 auto; /* center the image */
+    }
+  </style>
+</head>
+<body>
+  <h1 style="background: yellow; padding-top: 8px; text-align: center;">Portfolio website coming soon</h1>
+  <img src="https://images.squarespace-cdn.com/content/v1/631abf0c53e24b64ebdbdc65/1689564431524-9N86PYHQPNWPHJ5DN12Z/image-asset.jpeg?format=1500w" alt="Responsive Image">
+  <!-- https://www3.lunapic.com/do-not-link-here-use-hosting-instead/170907374526820176?7178344285 -->
+  <span class="cursor"></span>
+
+  <script>
+    document.body.onmousemove = function(e) {
+      document.documentElement.style.setProperty('--x', (e.clientX + window.scrollX) + 'px');
+      document.documentElement.style.setProperty('--y', (e.clientY + window.scrollY) + 'px');
+    }
+  </script>
+
+  <footer style="color: yellow; padding-top: 1em">
+    &copy; Pranjal Lokhande. All rights reserved.
+  </footer>
+</body>
+</html>
