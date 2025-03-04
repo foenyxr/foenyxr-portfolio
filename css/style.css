@@ -28,7 +28,7 @@ body{
 	word-wrap: break-word;
 	font-weight: 400;
 	background-color: #eee;
-	color: #868a9b;
+	color: #7f8085;
 	overflow-x: hidden;
 }
 
@@ -42,25 +42,25 @@ img.svg{
 	height: 15px;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-   color: #868a9b;
+   color: #7f8085;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: #868a9b;
+   color: #7f8085;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: #868a9b;
+   color: #7f8085;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #868a9b;
+   color: #7f8085;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #868a9b;
+   color: #7f8085;
 }
 
 ::placeholder { /* Most modern browsers support this now. */
-   color: #868a9b;
+   color: #7f8085;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -539,7 +539,7 @@ h6 { font-size: 16px; }
 	margin-bottom: 50px;
 }
 .arlo_tm_sidebar_menu .menu ul li a{
-	color: #868a9b;
+	color: #7f8085;
 	padding: 2px 0px;
 	display: inline-block;
 	
@@ -571,7 +571,7 @@ h6 { font-size: 16px; }
 	margin-right: 0px;
 }
 .arlo_tm_sidebar_menu .social li a{
-	color: #868a9b;
+	color: #7f8085;
 	font-size: 19px;
 	
 	-webkit-transition: all .3s ease;
@@ -639,7 +639,7 @@ h6 { font-size: 16px; }
 	position: absolute;
 	top: -20px;
 }
-.arlo_tm_title h3{
+.arlo_tm_title h2{
 	font-size: 15px;
 	text-transform: uppercase;
 	display: inline-block;
@@ -995,7 +995,7 @@ h6 { font-size: 16px; }
 .arlo_tm_testimonials .info .job{
 	font-weight: 400;
 	font-size: 14px;
-	color: #868a9b;
+	color: #7f8085;
 }
 .arlo_tm_testimonials .info h3{
 	overflow: hidden;
@@ -1218,7 +1218,7 @@ h6 { font-size: 16px; }
 	margin-top: -12px;
 	font-weight: 500;
 	padding: 5px 15px;
-	color: #868a9b;
+	color: #7f8085;
 	font-size: 14px;
 }
 .entry{position: relative;}
