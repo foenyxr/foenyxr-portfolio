@@ -23,9 +23,9 @@
 }
 .arlo_tm_modalbox .box_inner{
 	position: absolute;
-	top: 70px;
+	top: 50px;
 	bottom: 70px;
-	width: 968px;
+	width: 1350px;
 	left: 50%;
 	transform: translateX(-53%);
 	background-color: #fff;
@@ -194,8 +194,8 @@
 	margin-bottom: 60px;
 }
 .arlo_tm_modalbox .main_details .textbox{
-	width: 70%;
-	padding-right: 40px;
+	width: 100%;
+	padding-right: 10px;
 }
 .arlo_tm_modalbox .main_details .textbox p{
 	margin-bottom: 10px;
