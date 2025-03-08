@@ -351,16 +351,7 @@ h6 { font-size: 16px; }
 .arlo_tm_topbar .logo[data-type="avatar"] .avatar{display: inline-block;}
 .arlo_tm_topbar .logo[data-type="avatar"] .image{display: none;}
 .arlo_tm_topbar .logo[data-type="avatar"] .text{display: none;}
-.arlo_tm_topbar .logo[data-type="image"] .avatar{display: none;}
-.arlo_tm_topbar .logo[data-type="image"] .image{display: inline-block;}
-.arlo_tm_topbar .logo[data-type="image"] .text{display: none;}
-.arlo_tm_topbar .logo[data-type="text"] .avatar{display: none;}
-.arlo_tm_topbar .logo[data-type="text"] .image{display: none;}
-.arlo_tm_topbar .logo[data-type="text"] .text{display: inline-block;}
-.arlo_tm_topbar .logo .text h3{
-	font-size: 25px;
-	font-family: "Archivo Black";
-}
+
 .arlo_tm_topbar .avatar{
 	width: 40px;
 	height: 40px;
@@ -507,7 +498,7 @@ h6 { font-size: 16px; }
 	text-align: center;
 }
 .arlo_tm_sidebar_menu .logo{
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 .arlo_tm_sidebar_menu .logo img{
 	max-width: 200px;
@@ -516,16 +507,7 @@ h6 { font-size: 16px; }
 .arlo_tm_sidebar_menu .logo[data-type="avatar"] .avatar{display: inline-block;}
 .arlo_tm_sidebar_menu .logo[data-type="avatar"] .image{display: none;}
 .arlo_tm_sidebar_menu .logo[data-type="avatar"] .text{display: none;}
-.arlo_tm_sidebar_menu .logo[data-type="image"] .avatar{display: none;}
-.arlo_tm_sidebar_menu .logo[data-type="image"] .image{display: inline-block;}
-.arlo_tm_sidebar_menu .logo[data-type="image"] .text{display: none;}
-.arlo_tm_sidebar_menu .logo[data-type="text"] .avatar{display: none;}
-.arlo_tm_sidebar_menu .logo[data-type="text"] .image{display: none;}
-.arlo_tm_sidebar_menu .logo[data-type="text"] .text{display: inline-block;}
-.arlo_tm_sidebar_menu .logo .text h3{
-	font-size: 40px;
-	font-family: "Archivo Black";
-}
+
 .arlo_tm_sidebar_menu .avatar{
 	width: 120px;
 	height: 120px;
@@ -538,6 +520,20 @@ h6 { font-size: 16px; }
 .arlo_tm_sidebar_menu .menu{
 	margin-bottom: 50px;
 }
+
+.redirect_link {
+	margin-bottom: 50px;
+}
+
+.redi {
+	color: #636B2F;
+	font-weight: 500;
+	background-color: #ebebeb;
+}
+.redi:hover {
+	color: #000000;
+}
+
 .arlo_tm_sidebar_menu .menu ul li a{
 	color: #7f8085;
 	padding: 2px 0px;
@@ -572,7 +568,7 @@ h6 { font-size: 16px; }
 }
 .arlo_tm_sidebar_menu .social li a{
 	color: #7f8085;
-	font-size: 19px;
+	font-size: px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -679,7 +675,7 @@ h6 { font-size: 16px; }
 .arlo_tm_button a{
 	display: inline-block;
 	color: #000;
-	padding: 4px 30px;
+	padding: 4px 20px;
 	position: relative;
 	
 	-webkit-transition: all .3s ease;
@@ -701,7 +697,7 @@ h6 { font-size: 16px; }
 	color: #fff;
 	white-space: nowrap;
 	width: 60px;
-	padding: 4px 30px;
+	padding: 4px 20px;
 	z-index: 1;
 	overflow: hidden;
 	
@@ -721,7 +717,7 @@ h6 { font-size: 16px; }
 	bottom: 0px;
 	left: 0px;
 	width: 60px;
-	background-color: #999;
+	background-color: #636B2F;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -1152,14 +1148,15 @@ h6 { font-size: 16px; }
 	color: #000;
 }
 .arlo_tm_portfolio .portfolio_item{
-	margin: 0px 0px 0px -50px;
+	margin: 0px 0px 0px -40px;
 	display: flex;
 	flex-wrap: wrap;
 }
 .arlo_tm_portfolio .portfolio_item li{
-	margin-bottom: 30px;
-	float: left;
-	width: 50%;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	float: center;
+	width: 33%;
 	padding-left: 40px;
 }
 .arlo_tm_portfolio .portfolio_item li .inner{
@@ -1167,7 +1164,7 @@ h6 { font-size: 16px; }
 	height: 100%;
 	height: auto;
 	clear: both;
-	float: left;
+	float: center;
 	overflow: hidden;
 	position: relative;
 }
