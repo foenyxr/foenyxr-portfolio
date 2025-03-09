@@ -232,9 +232,9 @@ h6 { font-size: 16px; }
 .arlo_tm_mainpart{
 	position: fixed;
 	top: 100px;
-	right: 200px;
+	right: 250px;
 	bottom: 100px;
-	left: 700px;
+	left: 650px;
 	background-color: #fcfcfc;
 	overflow: hidden;
 }
@@ -485,7 +485,7 @@ h6 { font-size: 16px; }
 	top: 100px;
 	left: 250px;
 	bottom: 100px;
-	width: 400px;
+	width: 350px;
 	background-color: #fff;
 }
 .arlo_tm_sidebar_menu .sidebar_inner{
@@ -603,6 +603,8 @@ h6 { font-size: 16px; }
 .arlo_tm_home .animateText span{
 	display: block;
 	font-size: 18px;
+	text-align: center;
+	justify-content: center;   
 }
 .arlo_tm_home .avatar{
 	position: relative;
